@@ -13,5 +13,6 @@ jobs:
             run: echo "Hello World! This is my first GitHub Action workflow."
           - name: List Directory
             run: ls -la
+          - run: npm run build
 
   
