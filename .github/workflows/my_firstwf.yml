@@ -8,7 +8,10 @@ jobs:
         runs-on: ubuntu-latest
         steps:
           - uses: actions/checkout@v4
+          - uses: actions/setup-node@v4
           - name: Print Hello World
             run: echo "Hello World! This is my first GitHub Action workflow."
+          - name: List Directory
+            run: ls -la
 
   
